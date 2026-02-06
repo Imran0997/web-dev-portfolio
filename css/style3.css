@@ -1,0 +1,132 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* shared container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ---------- NAV ---------- */
+.header {
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.logo span {
+    color: orange;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* buttons */
+.btn-primary {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid orange;
+    color: orange;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ---------- BANNER ---------- */
+.banner {
+    padding: 80px 0;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* LEFT */
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-content h4 {
+    font-size: 24px;
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    margin: 10px 0;
+}
+
+.banner-content p {
+    color: #555;
+    margin: 20px 0;
+}
+
+.btn-group {
+    display: flex;
+    gap: 15px;
+}
+
+/* RIGHT IMAGE + BACKGROUND */
+.banner-image-wrapper {
+    position: relative;
+    max-width: 520px;
+}
+
+/* background arc */
+.banner-image-wrapper::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+
+    width: 420px;
+    height: 420px;
+
+    background: url("/images/header_bg.png") no-repeat;
+    background-size: contain;
+    z-index: 0;
+}
+
+/* profile image */
+.banner-profile-img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}

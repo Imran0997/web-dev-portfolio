@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    padding: 100px 0;
+}
+
+/* ---------- NAV ---------- */
+.nav-ber {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 230px 47px 226px;
+}
+
+.nav-ber .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.nav-ber .nav-menu li {
+    list-style: none;
+}
+
+.nav-ber .nav-menu li a {
+    text-decoration: none;
+    color: #474747;
+
+}
+
+.nav-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title-color {
+    color: rgba(253, 110, 10, 1);
+}
+
+/* buttons */
+.btn-primary {
+    padding: 12px 10px;
+    background-color: rgba(253, 110, 10, 1);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.btn-outline {
+    background: transparent;
+    padding: 12px 10px;
+    border: 1px solid rgba(253, 110, 10, 1);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ---Banner style----- */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 51px 230px 47px 226px; */
+    margin: 0 35px 0 230px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner .banner-image {
+    max-width: 584px;
+    width: 100%;
+    display: block;
+}
+
+.banner-getting {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* site-header */
+.site-header {
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* ------about me ----- */
+.about {
+    max-width: 1140px;
+    background-color: rgba(255, 248, 243, 1);
+    margin: 130px 0;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.06);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about-items {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.item-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.item-description {
+    font-size: 20px;
+    font-weight: 700;
+}

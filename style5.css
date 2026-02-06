@@ -1,0 +1,76 @@
+/* ===== Common container ===== */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===== What I do section ===== */
+.what-i-do {
+    padding: 130px 0;
+    text-align: center;
+}
+
+/* Section header */
+.section-header {
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* ===== Flex layout ===== */
+.skills-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* 🔥 responsive */
+}
+
+/* ===== Card ===== */
+.skill-card {
+    /* flex: 1 1 calc(25% - 30px); */
+    /* 4 cards in a row */
+    background: #fff;
+    padding: 35px 30px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon */
+.skill-icon img {
+    width: 48px;
+    margin-bottom: 25px;
+}
+
+/* Title */
+.skill-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Description */
+.skill-description {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+}
